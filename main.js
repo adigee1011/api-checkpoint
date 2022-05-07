@@ -16,7 +16,7 @@ let button = document.getElementById('submit')
 button.addEventListener("click", function(){
 
 let b = document.getElementById('box').value;
-console.log(b);
+
 })
 
 /*
