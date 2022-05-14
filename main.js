@@ -51,7 +51,7 @@ fetch("https://ip-fast.com/api/ip/?format=json&location=True").then(function(res
     fetch("https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/search/?query=" + json.city).then(function(response){
         return response.json();
     }).then(function(json){
-        console.log("this is the last promise call", json)
+
     })
 })
 
